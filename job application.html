@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html>
+    <div class="all">
+        <div class="all-formed">
+            <div class="shtrix">
+    <head>
+        <meta charset="UTF-8">
+        <title> Job Application</title>
+        <link rel="stylesheet" href="jobApp.css">
+        
+        <div>
+    </head>
+    <body>
+               
+        <header><br>
+            <h1 >Job Application</h1>
+            <p >Please complete the form below to apply for a position with us.</p><br>
+            <hr>
+        </header> <br><br>
+       <form action="/server.php" method="get">
+   
+        <label for="FullName" id="size" > Full Name</label> <br><br>
+     <div class="form-container"  >
+        <div class="form-group">
+        <input type="text" name="FullName" id="FullName">
+        <span id="FullName" class="help">First Name</span>
+        </div>
+        <div class="form-group">
+        <input type="text" name="MiddleName" id="FullName">
+        <span id="FullName" class="help">Middle Name</span>
+        </div>
+        <div class="form-group">
+        <input type="text" name="LastName" id="FullName">
+        <span id="FullName" class="help">Last Name</span>
+        </div>
+    </div>
+        <br><br>
+        
+
+        <label for="BodySize" id="size"> Body Size</label><br> <br>
+       <div class="form-container"  >
+        <div class="form-group">
+        <input type="text" name="height" id="BodySize"placeholder="sm">
+        <span class="help">Height</span>
+        </div>
+        <div class="form-group">
+        <input type="text" name="weight" id="BodySize" placeholder="kg">
+        <span class="help">Weight</span>
+    </div>   
+    </div>
+        <br><br>
+
+    
+        <label for="BirthDate" id="size"> Birth Date</label>
+        <br><br>
+<div class="form-container"  >
+    <div class="form-group">
+          <select name="month" id="BirthDate" aria-placeholder="select a month" >
+            <option value=""disabled selected>Please select a month</option>
+            <option value="1"> Yanvar </option>
+            <option value="2">Fevral</option>
+            <option value="3"> Mart</option>
+            <option value="4">Aprel</option>
+            <option value="5">May </option>
+            <option value="6"> Iyun </option>
+            <option value="7">Iyul </option>
+            <option value="8">Avgust</option>
+            <option value="9">Sentabr</option>
+            <option value="10">Oktabr</option>
+            <option value="11">Noyabr</option>
+            <option value="12">Dekabr</option>
+         </select>
+          <span class="help">Month</span>
+    </div>
+    <div class="form-group">
+          <select name="Day" id="BirthDate">
+            <option value=""disabled selected>Please select a day </option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+            <option value="12">12</option>
+            <option value="13">13</option>
+            <option value="14">14</option>
+            <option value="15">15</option>
+            <option value="16">16</option>
+            <option value="17">17</option>
+            <option value="18">18</option>
+            <option value="19">19</option>
+            <option value="20">20</option>
+            <option value="21">21</option>
+            <option value="22">22</option>
+            <option value="23">23</option>
+            <option value="24">24</option>
+            <option value="25">25</option>
+            <option value="26">26</option>
+            <option value="27">27</option>
+            <option value="28">28</option>
+            <option value="29">29</option>
+            <option value="30">30</option>
+            <option value="31">31</option>
+       </select>
+       <span class="help">Day</span>
+    </div>
+    <div class="form-group">
+        <select name="Year" id="BirthDate">
+            <option value=""disabled selected> Please select a year </option>
+            <option value="1">2024</option>
+            <option value="2">2023</option>
+            <option value="3">2022</option>
+            <option value="4">2021</option>
+            <option value="5">2020</option>
+            <option value="6">2019</option>
+            <option value="7">2018</option>
+            <option value="8">2017</option>
+            <option value="9">2016</option>
+            <option value="10">2015</option>
+            <option value="11">2014</option>
+            <option value="12">2013</option>
+            <option value="13">2012</option>
+            <option value="14">2011</option>
+            <option value="15">2010</option>
+            <option value="16">2009</option>
+            <option value="17">2008</option>
+            <option value="18">2007</option>
+            <option value="19">2006</option>
+            <option value="20">2005</option>
+            <option value="21">2004</option>
+            <option value="22">2003</option>
+            <option value="23">2002</option>
+            <option value="24">2001</option>
+            <option value="25">2000</option>
+            <option value="26">1999</option>
+            <option value="27">1998</option>
+            <option value="28">1997</option>
+            <option value="29">1996</option>
+            <option value="30">1995</option>
+            <option value="31">1994</option>
+            <option value="32">1993</option>
+            <option value="33">1992</option>
+            <option value="34">1991</option>
+            <option value="35">1990</option>
+            <option value="36">1989</option>
+            <option value="37">1988</option>
+            <option value="38">1987</option>
+            <option value="39">1986</option>
+            <option value="40">1985</option>
+            <option value="41">1984</option>
+            <option value="42">1983</option>
+            <option value="43">1982</option>
+            <option value="44">1981</option>
+            <option value="45">1980</option>
+            <option value="46">1979</option>
+            <option value="47">1978</option>
+            <option value="48">1977</option>
+            <option value="49">1976</option>
+            <option value="50">1975</option>
+            <option value="51">1974</option>
+            <option value="52">1973</option>
+            <option value="53">1972</option>
+            <option value="54">1971</option>
+            <option value="55">1970</option>
+            <option value="56">1969</option>
+            <option value="57">1968</option>
+            <option value="58">1967</option>
+            <option value="59">1966</option>
+            <option value="60">1965</option>
+            <option value="61">1964</option>
+            <option value="62">1963</option>
+            <option value="63">1962</option>
+            <option value="64">1961</option>
+            <option value="65">1960</option>
+            <!--Kompaniya so'roviga qarab davom ettirib qo'yish mumkin-->
+        </select>
+        <span class="help">Year</span>
+     </div>
+</div>
+       <br><br>
+
+        <p id="size">Family Status</p>
+        <div>
+        <input type="radio" name="FamStat" value="Divorced" class="radio" >
+        <label for="Divorced"> Divorced</label>
+        <br>
+
+        <input type="radio" name="FamStat" value="Married" class="radio">
+        <label for="Married"> Married</label>
+        <br>
+
+        <input type="radio" name="FamStat" value="Single" class="radio">
+        <label for="Single"> Single</label>
+        <br>
+
+        <input type="radio" name="FamStat" value="Other" class="radio" >
+        <label for="Other"> Other</label>
+        </div>
+        <br><br>
+
+        <label id="size">Current Address</label><br><br>
+        <div class="text" >
+            <label for="StreetAddress" >
+                <div >
+                <input type="text" name="StreetAddress" id="StreetAddress" maxlength="30"  >
+                <span id="StreetAddress" class="help" >Street Address</span><br>
+            </div>
+                <input type="text" name="StreetAddress_line2" id="StreetAddress" maxlength="60"  >
+                <span id="StreetAddress"class="help">Street Address line2</span><br>
+        <div class="form-container">
+            <div class="form-group">            
+                <input type="text" name="City" id="StreetAddress" maxlength="15" >
+                <span id="StreetAddress" class="help">City</span>
+            </div>
+            <div class="form-group">    
+                <input type="text" name="state/provincy" id="StreetAddress" maxlength="30">
+                <span id="StreetAddress" class="help">State / provincy</span>
+            </div>   
+        </div><br>
+                <input type="text" name="Postal/ZipCode" id="StreetAddress"maxlength="20">
+                <span id="StreetAddress" class="help">Postal / Zip Code</span>
+            </label>
+        </div><br><br>
+
+
+        
+        
+    <div class="form-container">
+          <div class="form-group">
+            <label for="email" class="input" id="size">Email</label><br>
+             <input type="email" name="email" id="email" placeholder="myname@example.coms">
+             <span class="help">example@example.com</span>
+            </div>       
+
+                <div class="form-container">
+             <div class="form-group">
+                <label for="PhoneNum" id="size"> Phone Number</label><br>
+                <div class="form-container">
+                <div class="form-group">
+                <input type="text" name="Code" id="PhoneNum" placeholder="90">
+                <span class="help">Area Code</span>
+            </div>
+             <div class="form-group">
+                <input type="text" name="Number" id="PhoneNum"placeholder="9000909">
+                <span class="help">Phone Number</span>
+            </div>
+              </div>
+            </div>
+            </div>
+         </div> <br><br>
+
+        <div class="form-container">
+            <div class="form-group">
+             <label for="LinkedIn" id="size"> LinkedIn</label><br>
+             <input type="text" name="LinkedIn" id="LinkedIn">
+            </div>
+            <div class="form-group">
+                <label for="Experience" id="size">Experience</label><br>
+                <input type="number" name="Experience" id="Experience" min="0" max="100" step="1">
+            </div>
+       </div><br><br>
+       <hr><br><br>
+       <div class="form-container">
+           <div class="form-group">
+            <label for="Position" id="size">Position Applied</label><br>
+            <select name="position" id="Position">
+                <option value=""disabled selected>Please Select</option>
+                <option value="1">Marketing Specialist</option>
+                <option value="2">Sales Manager</option>
+                <option value="3">Product Lead </option>
+                <option value="4">Developer </option>
+            </select>
+           </div>
+           <div class="form-group">
+             <label for="Add" id="size">How did you hear about us</label><br>
+             <select name="add" id="Add">
+                <option value=""disabled selected>Please select</option>
+                <option value="1">LinkedIn</option>
+                <option value="2">Event</option>
+                <option value="3">Social media</option>
+                <option value="4">Company Website</option>
+                <option value="5">Family/Friends</option>
+                <option value="6">Other</option>
+             </select>
+           </div>
+       </div><br>
+        <div class="form-container">
+            <div class="form-group">
+                <label for="Date" id="size"> Available Start Date</label><br>
+                <input type="date" name="date" id="Date" style="width: 48%;">
+            </div>
+        </div><br><br>
+<div>
+       <label id="size"> Computer Skills</label><br><br>
+        <div class="border-radius">
+            <table>
+                <thead>
+                    <tr>
+                        <th>
+
+                        </th>
+                        <th>
+                            Beginner
+                        </th>
+                        <th>
+                            Elementary
+                        </th>
+                        <th>
+                            Advanced
+                        </th>
+                        <th>
+                            Expert
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+
+                        <td class="colour_td">
+                         Excel   
+                        </td>
+                        <td class="text-place">
+                            <label for="Beginner"></label>
+                            <input type="radio" name="Level" value="Beginner"  >
+                        </td>
+                        <td class="text-place">
+                            <label for="Elementary"></label>
+                            <input type="radio" name="Level" value="Elementary"  >
+                        </td>
+                        <td class="text-place">
+                            <label for="Advanced"></label>
+                            <input type="radio" name="Level" value="Advanced"  >
+                        </td>
+                        <td class="text-place">
+                            <label for="Expert"></label>
+                            <input type="radio" name="Level" value="Expert"  >
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="colour_td">
+                            Word
+                        </td>
+                        <td class="text-place">
+                            <label for="Beginner"></label>
+                            <input type="radio" name="Level1" value="Beginner"  >
+                        </td>
+                        <td class="text-place">
+                            <label for="Elementary"></label>
+                            <input type="radio" name="Level1" value="Elementary"  >
+                        </td>
+                        <td class="text-place">
+                            <label for="Advanced"></label>
+                            <input type="radio" name="Level1" value="Advanced"  >
+                        </td>
+                        <td class="text-place">
+                            <label for="Expert"></label>
+                            <input type="radio" name="Level1" value="Expert"  >
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="colour_td">
+                            1C
+                        </td>
+                        <td class="text-place">
+                            <label for="Beginner"></label>
+                            <input type="radio" name="Level2" value="Beginner"  >
+                        </td>
+                        <td class="text-place">
+                            <label for="Elementary"></label>
+                            <input type="radio" name="Level2" value="Elementary"  >
+                        </td>
+                        <td class="text-place">                          
+                            <label for="Advanced"></label>
+                            <input type="radio" name="Level2" value="Advanced"  >
+                        </td>
+                        <td class="text-place">                           
+                            <label for="Expert"></label>
+                            <input type="radio" name="Level2" value="Expert"  >
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="colour_td">
+                            Programming Language
+                        </td>
+                        <td class="text-place">
+                            <label for="Beginner"></label>
+                            <input type="radio" name="Level3" value="Beginner"  >
+                        </td>
+                        <td class="text-place">
+                            <label for="Elementary"></label>
+                            <input type="radio" name="Level3" value="Elementary"  >
+                        </td>
+                        <td class="text-place">
+                            <label for="Advanced"></label>
+                            <input type="radio" name="Level3" value="Advanced"  >
+                        </td>
+                        <td class="text-place">
+                            <label for="Expert"></label>
+                            <input type="radio" name="Level3" value="Expert"  >
+                        </td>
+                    
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        </div><br> <br>
+     
+        <label for="English" id="size">Ability knowing English Language</label><br><br>
+
+         <div class="form-container">
+            <div class="form-group">
+                <input type="radio" name="English" value="1">
+            <span class="helpform">Worst</span>
+            </div>
+            <div class="form-group">
+             <input type="radio" name="English" value="2">
+            </div>
+            <div class="form-group">
+                <input type="radio" name="English" value="3">
+            </div>
+            <div class="form-group">
+                <input type="radio" name="English" value="4">
+            </div>
+            <div class="form-group">
+                <input type="radio" name="English" value="5">
+            <span class="helpform">Best</span>
+            </div>
+            
+         </div> <br><br>
+
+ <!--        <p>Applicant Document (Diploma,Certificate)</p><br>
+         <label for="Doc"  class="helpform">Browse Files <span class="helpform">Drag and drop files here</span></label>
+         <input type="file" name="Doc" id="Doc"style="font-weight: bolder; color: #2C3345; border-color: rgb(145, 137, 137) ;  border-style: dashed; height: 60px;">-->
+       <label id="size">Applicant Document(Diploma, Certificate)</label><br><br>
+     <div class="conteiner-lab">
+        <div class="file-upload-w">
+            <input type="file"  id="file-upload" class="file-upload-input">
+            <label for="file-upload" class="file-upload-label">
+                <p class="fa-upload"></p> Browse Files <span class="help">Drag and drop files here</span>
+            </label>
+        </div>
+    </div><br><br>
+    <label id="size">Upload Your Resume</label> <br><br>
+      <div class="conteiner-lab">
+        <div class="file-upload-w">
+            <input type="file" id="file-upload" class="file-upload-input">
+            <label for="file-upload" class="file-upload-label">
+                <p class="fa-upload"></p>Browse Files <span class="help">Drag and drop files here</span>
+            </label>
+        </div>
+      </div><br><br>
+      <label id="size"for="Letter">Cover Letter</label><br><br>
+      <input type="text" name="Letter" id="Letter" style="height: 120px;"><br><br>
+      <hr>
+
+ </div><br>
+      
+      <button class="button-s">Apply</button>
+      </div>
+</div>
+</div>
+
+    </form>
+
+        
+    </body>
+</html>

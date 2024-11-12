@@ -1,0 +1,217 @@
+
+            header{
+                color: #2C3345;
+            }
+            thead th{
+            color: rgb(82, 83, 83);
+            font-weight: lighter;
+                }
+            table{
+                margin-bottom: 10px;
+                border-collapse: collapse;
+                width: 100%;            
+                }
+            .radio{
+                height: 20px;
+                width: 20px;
+                border-radius: 50%;
+                text-align: center;
+                }
+
+            thead{
+                text-align: center;
+                background-color: rgb(222, 222, 236);
+                height: 40px;
+                
+            }
+            th{
+                border: 1px solid rgb(179, 179, 228);
+                padding: 1px;
+            }
+            td{
+                border: 1px solid rgb(179, 179, 228);
+                padding: 5px;
+            }
+           
+            .text-place{
+                height: 35px;
+                text-align: center;
+               
+            }
+            .colour_td{
+                background-color: rgb(222, 222, 236) ;
+                
+            }
+                 
+           .help{
+            display: block;
+            margin-top: 5px;
+            color: rgb(145, 137, 137);
+            font-size: 0.750em;
+         
+           }
+           .helpform{
+            display: block;
+            margin-top: 5px;
+            color: rgb(145, 137, 137);
+            font-size: 0.700em;
+            text-align: center;
+           }
+           /* .file-upload-w{
+            position: relative;
+            display: inline-block;
+            background-color: ;
+            }
+           .conteiner-lab{
+            width: 100%;
+           }
+           .file-upload-input{
+            width: 100%;
+            height: 100px;
+            position: absolute;
+            top: 0;
+            left: 0;
+            opacity: 0;
+            cursor: pointer;
+            border-color: #2C3345;
+           }
+           .file-upload-label{
+            display: inline-block;
+            padding: 90%; 
+            color: #2C3345;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;          
+            width: 100%;
+            height: 2%;
+            border-style: dashed;
+            background-color: qua;
+
+    
+            
+           }
+           .fa-upload{
+            margin-left: 200px;
+            text-align: center;
+            background-color: yellowgreen;
+           } */
+           #size{
+            font-size: large;
+           }
+           #styling{
+            margin-left: 10px;
+            width: 90%;
+            height: 30px;
+           }
+           .form-container{
+            display: flex;
+            
+            
+           
+           }
+           .form-group{
+            margin-right: 20px;
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            
+           }
+           
+           
+           .form-group label,
+           .form-group input,
+           .form-group span{
+            margin-bottom: 1px;
+           }
+           .button{
+            border-radius: 50%;
+            height: 30px;
+            width: 30px;
+           }
+           .all{
+            display: flex;
+            width: 100%;
+            height: 100%;
+            background-color: rgb(206, 226, 238);
+            justify-content: center;
+            align-items: center;
+            font-size: 16px;
+            font-family: Arial, Helvetica, sans-serif;
+            
+           }
+           .all-formed{
+            display: flex;
+            width:752px;
+            height: max-content;
+            background-color: #fff;
+            margin-top: 20px;
+            
+           }
+           .shtrix{
+            margin-left: 40px;
+           }
+           input{
+            height: 30px;
+            width: 100%;
+            border-radius: 3%;
+            border-color: rgb(145, 137, 137);
+            border-style: solid;
+            cursor: pointer;
+            border-width: 1px;
+           }
+           select{
+            height: 30px;
+            cursor: pointer;
+           
+           }
+           .file-upload-input{
+            height: 0px;
+            top: 0;
+            left: 0;
+            opacity: 0;
+            border-width: 1px solid #2C3345;
+            border-style: dashed;
+            cursor: pointer;
+            
+           }
+           .file-upload-label{
+            display: inline-block;
+            padding: 10%;
+            text-align: center;
+            width: 60%;
+           
+            cursor: pointer;
+           }
+           .file-upload-w{
+            position: relative;
+            display: inline-block;
+            width: 100%;
+          }
+            
+            .conteiner-lab{
+                width: 100%;
+                border-style: dashed;
+            cursor: pointer;
+            border-radius: 5px;
+            border-width: 1px;
+            height: 120px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+               }
+               .fa-upload{
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: bold;
+                
+               }
+               .button-s{
+                font-weight: bold;
+                color: white;
+                background-color:black;
+                height: 40px;
+                width: 180px;
+                margin-left: 220px;
+                cursor: pointer;
+                border-radius: 5px;
+               }
+              
